@@ -5,11 +5,25 @@
     <meta name="author" content="${blog_author}">
     <title>${title} | ${blog_title}</title>
     <!-- Le styles -->
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+        },
+        displayAlign: 'left', // Change this to 'center' to center equations.
+        "HTML-CSS": {
+            styles: {'.MathJax_Display': {"margin": 0}}
+        }
+    });
+    </script>
     %if use_bundles:
         <link href="/assets/css/all.css" rel="stylesheet" type="text/css">
         <script src="/assets/js/all.js" type="text/javascript"></script>
     %else:
+        <link href="assets/css/ipython.css" rel="stylesheet" type="text/css">
         <link href="/assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
         <link href="/assets/css/rst.css" rel="stylesheet" type="text/css">
         <link href="/assets/css/code.css" rel="stylesheet" type="text/css">
         <link href="/assets/css/colorbox.css" rel="stylesheet" type="text/css"/>
@@ -25,7 +39,6 @@
         <script src="/assets/js/jquery.colorbox-min.js" type="text/javascript"></script>
         <script src="/assets/js/slides.min.jquery.js" type="text/javascript"></script>
         <script src="/assets/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="/assets/js/mathjax-config.js" type="text/x-mathjax-config"></script>
         <script src="/assets/js/mathjax-onload.js" type="text/javascript"></script>
     %endif
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
