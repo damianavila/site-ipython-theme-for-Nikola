@@ -1,4 +1,3 @@
-<style type="text/css">
 /**
  * HTML5 ✰ Boilerplate
  *
@@ -77,8 +76,8 @@ pre, code, kbd, samp { font-family: monospace, sans-serif; }
 em,i { font-style: italic; }
 b,strong { font-weight: bold; }
 
-</style>
-<style type="text/css">
+
+
 
 /* Flexible box model classes */
 /* Taken from Alex Russell http://infrequently.org/2009/08/css-3-progress/ */
@@ -177,8 +176,9 @@ b,strong { font-weight: bold; }
 	box-pack: center;
 }
 
-</style>
-<style type="text/css">
+
+
+
 /**
  * Primary styles
  *
@@ -573,8 +573,10 @@ pre, code, kbd, samp { white-space: pre-wrap; }
 .js-error {
     color: darkred;
 }
-</style>
-<style type="text/css">
+
+
+
+
 .rendered_html {color: black;}
 .rendered_html em {font-style: italic;}
 .rendered_html strong {font-weight: bold;}
@@ -639,8 +641,8 @@ pre, code, kbd, samp { white-space: pre-wrap; }
 }
 
 
-</style>
-<style type="text/css">
+
+
 /* Overrides of notebook CSS for static HTML export
 
 */
@@ -652,9 +654,9 @@ body {
   padding: 0.4em;
 }
 
-</style>
-<meta charset="UTF-8">
-<style type="text/css">
+
+
+
 .highlight .hll { background-color: #ffffcc }
 .highlight  { background: #f8f8f8; }
 .highlight .c { color: #408080; font-style: italic } /* Comment */
@@ -717,4 +719,3 @@ body {
 .highlight .vg { color: #19177C } /* Name.Variable.Global */
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
-</style>

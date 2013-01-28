@@ -1,0 +1,33 @@
+pre {
+  display: block;
+  padding: 0px;
+  margin: 0 0 0px;
+  font-size: 13px;
+  color: black;
+  line-height: 20px;
+  word-break: break-word;
+  word-wrap: break-word;
+  white-space: pre;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border: 0px solid #ccc;
+  border: 0px solid rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+div.prompt {
+    /* This needs to be wide enough for 3 digit prompt numbers: In[100]: */
+    width: 11ex;
+    /* This 0.4em is tuned to match the padding on the CodeMirror editor. */
+    padding: 0.5em;
+    margin: 0px;
+    font-family: monospace;
+    text-align:right;
+}
+
+div.output_prompt {
+    /* 5px right shift to account for margin in parent container */
+    margin: 0 5px 0 -5px;
+}
