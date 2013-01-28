@@ -2,6 +2,7 @@ pre {
   display: block;
   padding: 0px;
   margin: 0 0 0px;
+  font-family: monospace, sans-serif;
   font-size: 13px;
   color: black;
   line-height: 20px;
@@ -15,16 +16,6 @@ pre {
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
-}
-
-div.prompt {
-    /* This needs to be wide enough for 3 digit prompt numbers: In[100]: */
-    width: 11ex;
-    /* This 0.4em is tuned to match the padding on the CodeMirror editor. */
-    padding: 0.5em;
-    margin: 0px;
-    font-family: monospace;
-    text-align:right;
 }
 
 div.output_prompt {
